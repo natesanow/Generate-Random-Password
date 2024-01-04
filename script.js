@@ -18,7 +18,7 @@ function writePassword() {
 
 // make the function generatePassword
 function generatePassword() {
-
+    var numberCharacters = ["0","1","2","3","4","5","6","7","8","9"];
 
 
   // at the very end of this function, you are returning a value
