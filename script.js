@@ -43,6 +43,16 @@ function generatePassword() {
       alert("Your password will Not have lowercase characters");
     }
 
+    hasUppercase = confirm("Do you want to uppercase characters?");
+    if (hasUppercase) {
+      alert("Your password will have uppercase characters");
+    }
+    else {
+      alert("Your password will Not have uppercase characters");
+    }
+
+    
+
   // at the very end of this function, you are returning a value
   // the value is the random password
   // return yourPasswordVariable
