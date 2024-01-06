@@ -24,7 +24,24 @@ function generatePassword() {
     var specialCharacters = ["~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","}","]","|",":",";","'","<",",",">",".","?","/"];
     var possibleCharacters = [];
 
+    numberofCharacters = prompt("How many characters do you want in your password? Choose between 8 and 128 characters");
+    if (numberofCharacters < 8 || numberofCharacters > 128) {
+      return "Please choose valid number of characters.";
+    } else if (isNaN(numberofCharacters)) {
+      numberofCharacters = prompt("Please enter a valid number");
+    }
+    else {
+      alert("Your password will be " + numberofCharacters + " characters long");
+    }
 
+    haslowercase = confirm("Do you want lowercase characters?");
+    if (haslowercase) {
+      alert("Your password will have uppercase characters");
+      var turnToLowercase = alert("Your password will have lowercase characters");
+    }
+    else {
+      alert("Your password will Not have lowercase characters");
+    }
 
   // at the very end of this function, you are returning a value
   // the value is the random password
