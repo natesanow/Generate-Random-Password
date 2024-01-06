@@ -51,7 +51,23 @@ function generatePassword() {
       alert("Your password will Not have uppercase characters");
     }
 
-    
+    hasNumbers = confirm("Do you want to use numbers?");
+    if (hasNumbers) {
+      alert("Your password will have numbers");
+    }
+    else {
+      alert("Your password will Not have numbers");
+    }
+
+    hasSpecial = confirm("Do you want special characters?");
+    if (hasSpecial) {
+      alert("Your password will have special characters");
+    }
+    else {
+      alert("Your password will Not have special characters");
+    }
+
+
 
   // at the very end of this function, you are returning a value
   // the value is the random password
