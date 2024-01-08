@@ -10,6 +10,10 @@ To complete task we added multiple prompts to generate random password to includ
 
 ### Links
 
+Github URL - https://github.com/natesanow/random-password-generator
+
+Live URL - https://natesanow.github.io/random-password-generator/
+
 ### Screenshot
 
-!
+![Screenshot](images/generated-password-screenshot.png)
